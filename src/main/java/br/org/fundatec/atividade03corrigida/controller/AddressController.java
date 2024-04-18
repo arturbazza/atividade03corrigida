@@ -1,13 +1,13 @@
-package br.org.fundatec.atividade03corrigida.controller
+package br.org.fundatec.atividade03corrigida.controller;
 
 import br.org.fundatec.atividade03corrigida.model.Address;
 import br.org.fundatec.atividade03corrigida.service.ApiProviderService;
 import br.org.fundatec.atividade03corrigida.service.CepService;
-import lombok.Data
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.PathVariable
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
 @Data
 @RestController

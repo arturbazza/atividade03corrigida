@@ -1,7 +1,7 @@
 package br.org.fundatec.atividade03corrigida.service;
 
-import br.org.fundatec.atividade03.dto.ViaCepResponseDTO;
-import br.org.fundatec.atividade03.model.Address;
+import br.org.fundatec.atividade03corrigida.model.Address;
+import br.org.fundatec.atividade03corrigida.repository.ViaCepResponseDTO;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
