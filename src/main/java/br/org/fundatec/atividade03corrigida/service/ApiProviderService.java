@@ -27,7 +27,7 @@ public class ApiProviderService {
             case "CEPABERTO":
                 return cepAbertoService;
             default:
-                throw new IllegalStateException("Unsupported API provider: " + apiProvider);
+                throw new IllegalStateException("Provedor de API sem suporte: " + apiProvider);
         }
     }
 }
